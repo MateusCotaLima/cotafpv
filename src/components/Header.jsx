@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import cotafpv from './cotafpv.png';
 import cotafpvVideo from '../video/CotaFPV.webm';
 import scrool from '../img/scrool.png';
 
@@ -9,7 +8,7 @@ const Header = () => {
         <div>
             <header className="header">
                 {/* <img src={cotafpv} className="Header-logo" alt="logo CotaFPV" /> */}
-                <video class="Header-logo" src={cotafpvVideo} autoPlay ></video>
+                <video class="Header-logo" src={cotafpvVideo} autoPlay muted ></video>
                 <img src={scrool} className="Header-scrool" alt="Icone Screel" />
             </header>
         </div>
