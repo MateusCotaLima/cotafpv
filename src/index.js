@@ -7,6 +7,7 @@ import ContactMe from './components/ContactMe';
 import Sobre from './components/Sobre';
 import SobreFpv from './components/SobreFpv';
 import Areas from './components/Areas';
+import Foot from './components/Foot';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,5 +16,6 @@ root.render(
     <SobreFpv/>
     <Sobre/>
     <Areas/>
+    <Foot/>
   </React.StrictMode>
 );

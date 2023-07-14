@@ -62,9 +62,9 @@ body{
         
     }
 }
-.card H3{
+.card H2{
     text-align: center;
-    font-weight: 600;
+    margin-bottom: 1rem;
 }
 .videos{
     /* margin-top: -9rem; */
