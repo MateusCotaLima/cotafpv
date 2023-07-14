@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './components/Header';
-import Areas from './components/Areas';
+
 import ContactMe from './components/ContactMe';
 import Sobre from './components/Sobre';
 import SobreFpv from './components/SobreFpv';
-
+import Areas from './components/Areas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,4 +17,3 @@ root.render(
     <Areas/>
   </React.StrictMode>
 );
-

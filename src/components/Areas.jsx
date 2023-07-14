@@ -18,7 +18,7 @@ const Areas = () => {
                     <section class="card">
                         <video class="videos" src={videoFesta} autoPlay muted loop></video>
                         <span class="autor">YURIMOREIRA_ </span>
-                        <h3>EVENTOS / FESTAS</h3>                    
+                        <h3>EVENTOS E FESTAS</h3>                    
                     </section>
                     <section class="card">
                         <video class="videos" src={videoInterep} autoPlay muted loop></video>

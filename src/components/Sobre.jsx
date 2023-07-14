@@ -7,9 +7,6 @@ const Sobre = () => {
     return (
         <div class="Areas">
             <div class="cardsSobre">
-                <section class="cardSobre">
-                    <img src={sobre} className="foto" alt="Foto Mateus Cota" />
-                </section>
                 <div class="tituloSobre">
                     <span>QUEM É COTAFPV? </span>
                     <h1>Sobre Mim</h1>
@@ -17,6 +14,9 @@ const Sobre = () => {
                     <p>Meu objetivo é entregar vídeos com uma perspectiva totalmente diferenciada e de tirar o fôlego, sendo um material excelente para conquistar o tão requisitado aumento de engajamentos nas redes sociais de quaisquer cliente que entrar em contato comigo.</p>
                     <a href="https://wa.link/knfobm"><div class="cotacaoSobre"><i class="fa-brands fa-whatsapp whats"></i> QUERO FAZER UM ORÇAMENTO!</div></a>
                 </div>
+                <section class="cardSobre">
+                    <img src={sobre} className="foto" alt="Foto Mateus Cota" />
+                </section>
             </div>
             <hr size="1" color="#1A1A1A" />
         </div>

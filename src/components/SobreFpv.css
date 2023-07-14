@@ -10,15 +10,33 @@
     box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.342),
         -10px -10px 25px -10px rgba(255, 255, 255, 0.082);
 }
-@media (max-width: 769px)
+@media (max-width: 1050px)
 {
     .cardSobre {
-        width: 30rem;
-        height: auto;
+        width: auto;
+        height: 21rem;
         padding: 1.5rem;
     }
 }
-.cardsSobre {
+@media (max-width: 900px)
+{
+    .tituloSobreFpv {
+        text-align: center;
+    }
+    .cardSobre {
+        width: 18rem;
+        height: auto;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .Areas{
+        padding: 5%;
+    }
+}
+.cardsSobreFpv {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 3rem;
@@ -35,46 +53,36 @@
     width: 100%;
     border-radius: 2%;
 }
-.tituloSobre {
+.tituloSobreFpv {
     width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
 }
-.tituloSobre H1 {
+.tituloSobreFpv H1 {
     font-size: 38px;
     margin-bottom: 1.5rem;
 }
-.tituloSobre span {
+.tituloSobreFpv span {
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
     color: #f9004d;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 0; 
 }
-.tituloSobre p {
+.tituloSobreFpv p {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 
     margin-bottom: 1.5rem;
 }
-.tituloSobre button {
-    width: 60%;
-    height: 2.5rem;
-    border: 0;
-    border-radius: 5px;
-    background-color: #212428;
-    font-family: "Montserrat", sans-serif;
-    font-size: 10px;
-    color: #f9004d;
-    font-weight: 600;
-    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.342),
-        -5px -5px 5px -5px rgba(255, 255, 255, 0.082);
-    cursor: pointer;
-}
-.cotacaoSobre {
+.cotacaoSobreFpv {
     display: flex;
     justify-content:center;
     align-items: center;
     text-decoration-line: none;
-    width: 70%;
+    width: 100%;
     height: 3.5rem;
     border: 0;
     border-radius: 5px;
@@ -87,15 +95,7 @@
         -5px -5px 5px -5px rgba(255, 255, 255, 0.082);
     cursor: pointer;
 }
-@media (max-width: 769px)
-{
-    .cotacaoSobre {
-        width: 100%;
-    }
-    .tituloSobre {
-        margin-bottom: 2rem;
-    }
-}
+
 .whats {
     font-size: 1.5rem;
     margin-right: 0.5rem;
