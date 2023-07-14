@@ -15,7 +15,6 @@ root.render(
     <SobreFpv/>
     <Sobre/>
     <Areas/>
-    <ContactMe/>
   </React.StrictMode>
 );
 
