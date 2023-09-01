@@ -18,32 +18,32 @@ const Areas = () => {
                     <section class="card">
                         <video class="videos" src={videoFesta} autoPlay muted loop></video>
                         <span class="autor">YURIMOREIRA_ </span>
-                        <h2>EVENTOS E FESTAS</h2>                    
+                        <h3>EVENTOS E FESTAS</h3>                    
                     </section>
                     <section class="card">
                         <video class="videos" src={videoInterep} autoPlay muted loop></video>
                         <span class="autor">COTAFPV </span>
-                        <h2>EVENTOS ESPORTIVOS</h2>
+                        <h3>EVENTOS ESPORTIVOS</h3>
                     </section>
                     <section class="card">
                         <video class="videos" src={videoHotel} autoPlay muted loop></video>
                         <span class="autor">PROHDIGYY </span>
-                        <h2>HOTÉIS</h2>
+                        <h3>HOTÉIS</h3>
                     </section>
                     <section class="card">
                         <video class="videos" src={videoImovel} autoPlay muted loop></video>
                         <span class="autor">GRAVA FILMS </span>
-                        <h2>SETOR IMOBILIÁRIO</h2>
+                        <h3>SETOR IMOBILIÁRIO</h3>
                     </section>
                     <section class="card">
                         <video class="videos" src={videoParque} autoPlay muted loop></video>
                         <span class="autor">MAHENDRAFPV </span>
-                        <h2>PARQUES</h2>
+                        <h3>PARQUES</h3>
                     </section>
                     <section class="card">
                         <video class="videos" src={video} autoPlay muted loop></video>
                         <span class="autor">COTAFPV </span>
-                        <h2>E MUITO MAIS</h2>
+                        <h3>E MUITO MAIS</h3>
                     </section>
             </div> 
             <a class="containerBotao" href="https://wa.link/knfobm"><div class="cotacaoAreas"><i class="fa-brands fa-whatsapp whats"></i> QUERO FAZER UM ORÇAMENTO!</div></a>
