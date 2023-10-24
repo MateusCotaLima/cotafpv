@@ -7,8 +7,10 @@
     padding: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 1rem;
+    background-image: linear-gradient(to bottom right, #e7ecf0 ,#ffffff);
     box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.342),
         -10px -10px 25px -10px rgba(255, 255, 255, 0.082);
+        
 }
 @media (max-width: 1050px)
 {
@@ -62,20 +64,25 @@
 }
 .tituloSobreFpv H1 {
     font-size: 38px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    color: #104889;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700; 
 }
 .tituloSobreFpv span {
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
-    color: #f9004d;
+    color: #002d67;
     font-weight: 600;
     margin-bottom: 0; 
 }
 .tituloSobreFpv p {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-
+    font-family: "Montserrat", sans-serif;
+    font-size: 14 px;
     margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: #131313;
 }
 .cotacaoSobreFpv {
     display: flex;
@@ -86,20 +93,21 @@
     height: 3.5rem;
     border: 0;
     border-radius: 5px;
-    background-color: #212428;
+    /* background-color: #212428; */
+    background-image: linear-gradient(to bottom right, #063c83 ,#1d60a7);
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    color: #f9004d;
-    font-weight: 600;
-    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.342),
-        -5px -5px 5px -5px rgba(255, 255, 255, 0.082);
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.342),
+        -10px -10px 25px -10px rgba(255, 255, 255, 0.082);
     cursor: pointer;
 }
 
 .whats {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-right: 0.5rem;
-    color: #f9004d;
+    color: #ffffff;
 }
 a:link {
     text-decoration: none;

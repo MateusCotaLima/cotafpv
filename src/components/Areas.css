@@ -35,7 +35,7 @@
 }
 
 body{
-    background-color: #212428;
+    background-color: #ffffff;
 }
 .cardsAreas{
     display: flex;
@@ -51,6 +51,9 @@ body{
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to bottom right, #e7ecf0 ,#ffffff);
+    box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.342),
+        -10px -10px 25px -10px rgba(255, 255, 255, 0.082);
     box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.342), -10px -10px 25px -10px rgba(255, 255, 255, 0.082);
     
 }
@@ -64,6 +67,11 @@ body{
 }
 .card H3{
     text-align: center;
+    color: #104889;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 .videos{
@@ -78,18 +86,23 @@ body{
 .titulo H1{
     font-size: 38px;
     margin-bottom: 3rem;
+    color: #104889;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
 }
 .titulo span{
     font-family: "Montserrat", sans-serif;
-    font-size: 10px;
-    color: #f9004d;
+    font-size: 11px;
+    color: #002d67;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 2; 
 }
 .autor{
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
-    color: #f9004d;
+    color: #002d67;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -107,13 +120,15 @@ body{
     height: 3.5rem;
     border: 0;
     border-radius: 5px;
-    background-color: #212428;
+    background-color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    color: #f9004d;
+    /* background-color: #212428; */
+    background-image: linear-gradient(to bottom right, #063c83 ,#1d60a7);
+    color: #ffffff;
     font-weight: 700;
-    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.342),
-        -5px -5px 5px -5px rgba(255, 255, 255, 0.082);
+    box-shadow: 10px 10px 25px -10px rgba(0, 0, 0, 0.342),
+        -10px -10px 25px -10px rgba(255, 255, 255, 0.082);
     cursor: pointer;
 }
 @media (max-width: 769px)

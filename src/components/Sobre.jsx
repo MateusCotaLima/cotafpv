@@ -18,7 +18,7 @@ const Sobre = () => {
                     <img src={sobre} className="foto" alt="Foto Mateus Cota" />
                 </section>
             </div>
-            <hr size="1" color="#1A1A1A" />
+            <hr size="1" color="#bebebe" />
         </div>
     );
 };

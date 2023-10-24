@@ -47,7 +47,7 @@ const Areas = () => {
                     </section>
             </div> 
             <a class="containerBotao" href="https://wa.link/knfobm"><div class="cotacaoAreas"><i class="fa-brands fa-whatsapp whats"></i> QUERO FAZER UM ORÇAMENTO!</div></a>
-            <hr size="1" color="#1A1A1A"/>
+            <hr size="1" color="#bebebe"/>
         </div>
     );
 }
